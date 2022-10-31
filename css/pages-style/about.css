@@ -1,0 +1,192 @@
+/* NAMED SUBHEADER */
+.subheader__about .subheader__background img {
+    left: -180px;
+    top: -900px;
+}
+
+@media (max-width: 600px) {
+    .subheader__about .subheader__background img {
+        left: 0;
+        top: -270px;
+    }
+}
+
+/* ADVANTAGES */
+
+.mobility__twocir-onearr .twocir-onearr__arr {
+    transform: rotateX(180deg);
+    left: -130px;
+    bottom: 30px;
+}
+
+.urbanliving__twocir-onearr .twocir-onearr__arr {
+    transform: rotateY(180deg);
+    left: -30px;
+}
+
+@media (max-width: 479px) {
+    .mobility__twocir-onearr .twocir-onearr__arr {
+        left: -10px;
+        bottom: 30px;
+    }
+
+    .urbanliving__twocir-onearr .twocir-onearr__arr {
+        left: 80px;
+    }
+}
+
+/* FAQS */
+.page__faqs {}
+
+.faqs {
+    padding: 50px 0;
+}
+
+.faqs__container {}
+
+.faqs__title {
+    text-align: center;
+    margin: 0 0 64px 0;
+}
+
+.faqs-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.faqs-item:not(:last-child) {
+    margin: 0 0 64px 0;
+}
+
+.faqs-item__title {
+    flex: 0 1 31.5%;
+}
+
+.faqs__subtitle {}
+
+.faqs-item__content {
+    flex: 0 1 65.7%;
+}
+
+.faqs-question {
+    position: relative;
+    padding: 32px 40px;
+    background-color: var(--color-snow);
+    border-radius: 2px;
+    overflow: hidden;
+    cursor: pointer;
+
+    max-height: 83px;
+    transition: max-height 0.5s ease 0s, background-color 0.3s ease 0s;
+}
+
+.faqs-question:hover {
+    background-color: var(--color-lightyellow);
+}
+
+.faqs-question:before {
+    content: '';
+    position: absolute;
+    right: 40px;
+    top: 37px;
+    width: 20px;
+    height: 16px;
+    background: url(../../img/about/faqs/faqs-arrow.svg) 0 0 no-repeat;
+    transform: rotate(0deg);
+    transition: transform 0.3s ease 0s;
+}
+
+.faqs-question>*:not(:last-child) {
+    margin: 0 0 24px 0;
+}
+
+.faqs-question:not(:last-child) {
+    margin: 0 0 16px 0;
+}
+
+.faqs-question__subtitle {
+    padding: 0 22px 0 0;
+}
+
+.faqs-question__text {}
+
+/* ОТКРЫТЫЙ FAQS ВОПРОС */
+.opened-question.faqs-question {
+    max-height: 190px;
+}
+
+.opened-question.faqs-question:before {
+    transform: rotate(180deg);
+}
+
+@media (max-width: 1110px) {
+    .faqs-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        flex-direction: column;
+    }
+    .faqs-item__title {
+        text-align: center;
+        margin: 0 0 32px 0;
+    }
+    .faqs-item__content {
+    }
+}
+
+@media (max-width: 600px) {
+    .faqs-question {
+        padding: 28px 40px;
+        max-height: 70px;
+    }
+    .faqs-question:before {
+        top: 30px;
+    }
+}
+
+@media (max-width: 470px) {
+    .opened-question.faqs-question {
+        max-height: 350px;
+    }
+    .faqs-question {
+        padding: 32px 40px;
+        max-height: 93px;
+    }
+    .faqs-question>*:not(:last-child) {
+        margin: 0 0 40px 0;
+    }
+}
+
+/* NAMDE FAQS */
+.works-faqs {}
+
+.driving-faqs {}
+
+/* NAMED QUESTION */
+.download__question {}
+
+.find__question {}
+
+.license__question {}
+
+.helmet__question {}
+
+.rules__question {}
+
+.scoot__question {}
+
+/* ADVANTAGES */
+.mission__twocir-onearr .twocir-onearr__arr {
+    left: -136px;
+    bottom: 0;
+}
+
+@media (max-width: 479px) {
+    .mission__twocir-onearr .twocir-onearr__arr {
+        left: -10px;
+        bottom: 0;
+    }
+    
+}
+/* ADVANTAGES */

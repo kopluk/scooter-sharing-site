@@ -1,0 +1,7 @@
+@import "nullstyles.css";
+@import "details.css";
+/* pages style */
+@import "pages-style/main-page.css";
+@import "pages-style/about.css";
+@import "pages-style/careers.css";
+@import "pages-style/locations.css";

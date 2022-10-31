@@ -1,0 +1,68 @@
+/* NAMED SUBHEADER */
+.subheader__careers .subheader__background img {
+    left: -180px;
+    top: -1950px;
+}
+
+@media (max-width: 600px) {
+    .subheader__careers .subheader__background img {
+        left: 0;
+        top: -570px;
+    }
+}
+
+/* PROFESSIONS */
+
+.page__professions {}
+
+.professions {
+    padding: 50px 0;
+}
+
+.professions__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.professions-item {
+    background-color: var(--color-snow);
+    padding: 32px 64px 32px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.professions-item:not(:last-child) {
+    margin: 0 0 24px 0;
+}
+
+.professions-item__content {}
+
+.professions-item__content > *:not(:last-child) {
+    margin: 0 0 8px 0;
+}
+
+.professions-item__subtitle {}
+
+.professions-item__text {}
+
+.professions__button {}
+
+@media (max-width: 1130px) {
+    .professions__container {
+        padding: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .professions-item {
+        padding: 32px 40px;
+        flex-direction: column;
+    }
+    .professions-item > *:not(:last-child) {
+        margin: 0 0 16px 0;
+    }
+    .professions-item__content {
+        text-align: center;
+    }
+}
